@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 100px white inset !important;
+}
+
+.navbar-brand img {
+    height: 50px;
+  }
+  .bg-light{
+      background-color: #fff !important;
+  }
+  .carousel-indicators li{
+      background-color: #CECECE;
+      height: 7px;
+      width: 12px;
+      border-radius: 50%;
+  }
+  .carousel-indicators li.active {
+	background-image: linear-gradient(45deg,#FFB229,#FFD019) !important;
+	height: 7px;
+	border-radius: 13px;
+	width: 35px;
+}
+.slider-bg{
+    background-image: url(../img/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px 370px;
+}
+.slider-section-bg{
+    background-image: url(../img/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 120px 120px;
+    margin-bottom: 60px;
+}
+
+.slider-desc .fa.fa-long-arrow-right {
+    margin-top: 6px;
+    position: absolute;
+    /*! top: 15px; */
+    padding-left: 5px;
+  }
+  .link-btn {
+    width: 120px;
+    border-radius: 7px;
+    background: #333;
+    border: none;
+    padding-left: 0;
+  }
+  .styled-text{
+      color: #FFAD2B;
+  }
+  #Smartphone{
+      margin-bottom: 60px;
+  }
+  .card {
+	padding: 30px 40px;
+	border: none;
+	box-shadow: 0px 0px 15px #E8E8E8;
+	border-radius: 10px;
+}
+.card p{
+    color: #B4B4B4;
+}
+#Laptop{
+    margin-bottom: 60px;
+}
+.bag {
+	border-radius: 0px 10px 2px 25px;
+	box-shadow: 0 0 10px gray;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.beauty{
+	border-radius: 0px 10px 25px 2px;
+	box-shadow: 0 0 10px gray;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+.shoes{
+	border-radius: 0px 10px 25px 2px;
+	box-shadow: 0 0 10px gray;
+	padding: 10px 20px;
+}
+.pale-order img{
+    width: 100%;
+}
+#categories{
+    margin-bottom: 60px;
+}
+.subscribe-section{
+    background-color: #F9F9F9;
+}
+#contact{
+    height: 300px;
+}
+#contact h6{
+    color: grey;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+}
